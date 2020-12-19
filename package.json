@@ -1,0 +1,30 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node1": "nodemon --watch dev -e js dev/api.js 3001",
+    "node2": "nodemon --watch dev -e js dev/api.js 3002",
+    "node3": "nodemon --watch dev -e js dev/api.js 3003",
+    "node4": "nodemon --watch dev -e js dev/api.js 3004"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/uuid": "^8.0.0",
+    "body-parser": "^1.19.0",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "sha256": "^0.2.0",
+    "uuid": "^8.1.0",
+    "uuidv1": "^1.6.14"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
